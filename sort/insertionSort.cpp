@@ -1,6 +1,6 @@
-/* This program implements Insertion sort algorithm for a vectyor of integers.
+/* This program implements Insertion sort algorithm for a vector of integers.
 * It starts with index 1 and if the previous element is greater then the current
-* element, it shifts the previous to the right and inserts the currenmt to the
+* element, it shifts the previous to the right and inserts the current to the
 * left.
 * Worst case performance of this algorithm is O(n^2)
 * Best case performance of this algorithm is O(n).

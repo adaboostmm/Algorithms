@@ -14,6 +14,11 @@ def xyz_there(str):
     return True
   return False
 
+# Solution-2 one liner
+
+def xyz_there_sol2(str):
+    return str.count("xyz") > str.count(".xyz")
+
 if xyz_there('abcxyz') == True:
     print("OK")
 if xyz_there('abc.xyz') == False:
